@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'my webstorm programming!' });
+  res.render('index', { title: 'my project2 push!' });
 });
 
 module.exports = router;
